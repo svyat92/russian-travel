@@ -1,0 +1,5 @@
+.places {
+  padding: 0 100px;
+  display: grid;
+  row-gap: 80px;
+}
