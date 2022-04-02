@@ -7,8 +7,21 @@
   text-transform: uppercase;
 }
 
-/* @media screen and (max-width: 768px) {
-  .lead__caption { 
-    margin-left: 24px;
+@media screen and (max-width: 1152px) {
+  .lead__caption {
+
   }
-} */
+}
+
+@media screen and (max-width: 896px) {
+  .lead__caption {
+    max-width: calc(100% - 24px * 2);
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .lead__caption {
+    max-width: calc(100% - 16px * 2);
+  }
+}

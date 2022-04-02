@@ -1,6 +1,13 @@
 .place__text {
+  grid-area: text;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   row-gap: 25px;
+}
+
+@media screen and (max-width: 544px) {
+  .place__text {
+    margin: 0 16px;
+  }
 }

@@ -1,14 +1,12 @@
 .page {
-  
   min-width: 320px;
   max-width: 1280px;
   margin: 0 auto;
-  padding: 29px 48px 24px 48px;
+  padding: 28px 0 24px;
   box-sizing: border-box;
-
   background-color: #2A2C2F;
-
   font-family: 'Inter', Arial, sans-serif;
+  color: #FFFFFF;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
@@ -18,4 +16,10 @@
 
 * {
   outline: 1px red solid;
+}
+
+@media screen and (max-width: 544px) {
+  .page {
+    padding: 16px 0 24px;
+  }
 }

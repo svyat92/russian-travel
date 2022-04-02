@@ -7,9 +7,9 @@
   background-position: center;
 }
 
-/* @media screen and (max-width: 320px) {
+@media screen and (max-width: 544px) {
   .header__logo {
-    width: 142px;
-    height: 42px;
+    min-width: 142px;
+    min-height: 42px;
   }
-} */
+}
