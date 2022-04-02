@@ -27,23 +27,3 @@
     max-width: calc(100% - 16px * 2);
   }
 }
-
-/* @media screen and (max-width: 1024px) {
-  .intro {
-    max-width: calc(100% - 38px * 2);
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .intro {
-    max-width: calc(100% - 24px * 2);
-    padding: 88px 0;
-  }
-}
-
-@media screen and (max-width: 425px) {
-  .intro {
-    max-width: calc(100% - 16px * 2);
-    padding: 64px 0;
-  }
-} */

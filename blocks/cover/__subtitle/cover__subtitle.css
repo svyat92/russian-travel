@@ -7,16 +7,6 @@
   text-align: center;
 }
 
-@media screen and (max-width: 1152px) {
-  .cover__subtitle {
-  }
-}
-
-@media screen and (max-width: 896px) {
-  .cover__subtitle {
-  }
-}
-
 @media screen and (max-width: 544px) {
   .cover__subtitle {
     max-width: calc(100% - 16px * 2);
