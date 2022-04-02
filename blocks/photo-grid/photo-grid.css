@@ -8,20 +8,20 @@
 
 @media screen and (max-width: 1152px) {
   .photo-grid {
-    gap: 14px
+    gap: 14px;
   }
 }
 
 @media screen and (max-width: 896px) {
   .photo-grid {
     max-width: calc(100% - 24px * 2);
-    gap: 16px
+    gap: 16px;
   }
 }
 
 @media screen and (max-width: 544px) {
   .photo-grid {
     max-width: calc(100% - 16px * 2);
-    gap: 12px
+    gap: 12px;
   }
 }
