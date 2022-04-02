@@ -14,10 +14,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-* {
-  outline: 1px red solid;
-}
-
 @media screen and (max-width: 544px) {
   .page {
     padding: 16px 0 24px;
